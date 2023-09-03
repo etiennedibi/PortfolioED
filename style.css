@@ -222,6 +222,9 @@ section {
   width: 400px;
   margin: auto 0;
 }
+.coverpic {
+  border-radius:100%;
+}
 
 .section__text {
   align-self: center;
@@ -336,7 +339,6 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
-
 .arrow {
   position: absolute;
   right: -5rem;
@@ -406,7 +408,9 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
+  /* margin-top: 350px; */
   position: relative;
+  top: 350px;
 }
 
 .color-container {
@@ -437,6 +441,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  margin-top: 400px;
 }
 
 .contact-info-upper-container {
